@@ -6,9 +6,9 @@ import './App.css'
 function App() {
   return (
     <Routes>
-      <Route path = "/" element = {<Login />} />
-      <Route path = "/reset" element = {<Reset />} />
-      <Route path = "/mfa" element = {<Mfa />} />
+      <Route path = "/MC-Utility-Tool-Frontend/" element = {<Login />} />
+      <Route path = "/MC-Utility-Tool-Frontend/reset" element = {<Reset />} />
+      <Route path = "/MC-Utility-Tool-Frontend/mfa" element = {<Mfa />} />
     </Routes>
   )
 }
