@@ -2,13 +2,14 @@
   font-family: Roboto;
   font-style: normal;
   line-height: normal;
+  font-size: 14px;
   font-weight: 400;
 
   color: rgba(0, 0, 0, 0.80);
   background: var(--grey);
 
   --white: #FFFFFF;
-  --grey: #FAFAF9;
+  --grey: #FBFBFB;
   --primary: #0085FF;
   --secondary: #FF0000;
 
