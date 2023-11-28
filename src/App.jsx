@@ -1,9 +1,10 @@
-import React from 'react'
 import { Routes, Route } from "react-router-dom"
 import Login from './routes/Login'
 import Reset from './routes/Reset'
 import Mfa from './routes/Mfa'
+import React from 'react'
 import './App.css'
+
 
 function App() {
   return (
@@ -14,5 +15,6 @@ function App() {
     </Routes>
   )
 }
+
 
 export default App
