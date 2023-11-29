@@ -9,10 +9,10 @@
     display: grid;
     gap: 10px;
     padding: 50px;
-    max-width: 400px;
+    max-width: 450px;
     border-radius: 5px;
-    border: var(--border);
-    background: var(--grey);
+    border: var(--border-strong);
+    background: var(--white);
 }
 
 .title {
@@ -44,18 +44,15 @@
 
 .input {
     height: 40px;
-    color: rgba(0, 0, 0, 0.60);
     border-radius: 5px;
-    border: 0.5px solid rgba(0, 0, 0, 0.30);
-    font-family: Roboto;
+    border: var(--border-strong);
     font-size: 15px;
-    font-style: normal;
     font-weight: 300;
     padding: 0 20px;
 }
 
 .input:focus {
-    outline: 0.5px solid #0085FF;
+    outline: 0.5px solid var(--primary);
 }
 
 .button:active, .icon-button:active { 

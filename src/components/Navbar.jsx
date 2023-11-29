@@ -1,7 +1,7 @@
-import logo from './assets/logo.svg'
-import logoutIcon from './assets/logout-icon.svg'
-import profileIcon from './assets/profile-icon.svg'
-import './styles/Navbar.css'
+import logo from '../assets/logo.svg'
+import logoutIcon from '../assets/logout-icon.svg'
+import profileIcon from '../assets/profile-icon.svg'
+import '../styles/Navbar.css'
 
 
 function Navbar() {
