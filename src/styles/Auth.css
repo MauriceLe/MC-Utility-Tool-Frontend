@@ -28,12 +28,7 @@
     text-align: center;
 }
 
-.description {
-    font-weight: 300;
-    text-align: center;
-}
-
-.title-box {
+.title-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,7 +50,7 @@
     outline: 0.5px solid var(--primary);
 }
 
-.button:active, .icon-button:active { 
+.button:active { 
     transform: scale(0.98);
 } 
 

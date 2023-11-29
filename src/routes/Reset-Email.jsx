@@ -2,7 +2,7 @@ import logo from '../assets/logo.svg'
 import '../styles/Auth.css'
 
 
-function Mfa() {
+function ResetEmail() {
   return (
     <div class="container">
         <form class="form">
@@ -11,9 +11,9 @@ function Mfa() {
                 <h1 class="title">MC Utility Tool</h1>
             </div>
             
-            <span class="subtitle">Mulifactor Authorization</span>
+            <span class="subtitle">Reset password</span>
             
-            <input class="input" placeholder="Access Token" type="text" required/>
+            <input class="input" placeholder="E-Mail" type="email" required/>
             
             <button class="button">Confirm</button>
 
@@ -23,4 +23,4 @@ function Mfa() {
   )
 }
   
-export default Mfa
+export default ResetEmail
