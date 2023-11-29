@@ -7,7 +7,7 @@ import Mfa from './routes/Mfa'
 function App() {
   return (
     <Routes>
-      <Route path="/" element = {<Login />} />
+      <Route path="/login" element = {<Login />} />
       <Route path="/reset" element = {<Reset />} />
       <Route path="/mfa" element = {<Mfa />} />
     </Routes>

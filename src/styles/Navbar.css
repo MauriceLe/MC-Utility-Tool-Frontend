@@ -14,9 +14,13 @@
     background: var(--white);
 }
 
-.logo-box { border-right: 0.5px solid rgba(0, 0, 0, 0.2); }
+.logo-box { 
+    border-right: 0.5px solid rgba(0, 0, 0, 0.2); 
+}
 
-.profile { border-left: 0.5px solid rgba(0, 0, 0, 0.2); }
+.profile { 
+    border-left: 0.5px solid rgba(0, 0, 0, 0.2); 
+}
 
 .menu {
     display: flex;
@@ -44,7 +48,6 @@ select {
     border-radius: 0;
     min-width: 180px;
     text-align: center;
-    font-size: 14px;
 }
 
 select:focus {
@@ -72,11 +75,6 @@ select:focus {
     padding: 0 20px;
     border: none;
     background: #FFFFFF;
-    color: rgba(0, 0, 0, 0.80);
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
 }
   
 .dropdown.active .dropbtn {
