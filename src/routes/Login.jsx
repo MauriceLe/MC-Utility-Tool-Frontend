@@ -17,13 +17,14 @@ function Login() {
     }
 
     const handleSubmit = (event) => {
-        event.preventDefault()
-        alert(state.email, state.password)
+        event.preventDefault();
+        console.log(state.email);
+        console.log(state.password);
     }
 
     return (
     <div class="container">
-        <form class="form">
+        <form class="form" onSubmit={handleSubmit}>
             <div class="title-container">
                 <img src={logo} width="40px" height="40px"/>
                 <h1 class="title">MC Utility Tool</h1>
