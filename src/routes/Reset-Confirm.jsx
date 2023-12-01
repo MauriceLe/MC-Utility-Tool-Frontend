@@ -3,10 +3,11 @@ import * as React from 'react'
 import '../styles/Auth.css'
 
 
-function ResetEmail() {
+function ResetConfirm() {
 
     const [state, setState] = React.useState({
-        email: ''
+        password: '',
+        repeated: ''
     })
 
     const handleChange = (event) => {
@@ -17,7 +18,10 @@ function ResetEmail() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        console.log(state.email);
+
+        if (state.password == state.repeated) {
+            console.log(state.password);
+        }
     }
 
     return (
@@ -28,24 +32,34 @@ function ResetEmail() {
                 <h1 class="title">MC Utility Tool</h1>
             </div>
             
-            <span class="subtitle">Reset password</span>
+            <span class="subtitle">Confirm password</span>
             
-            <input 
-                name='email'
-                value={state.email}
+            <input
+                name='password'
+                value={state.password}
                 onChange={handleChange}
                 class="input" 
-                placeholder="E-Mail" 
+                placeholder="New Password" 
+                type="email" 
+                required
+            />
+            
+            <input
+                name='repeated'
+                value={state.repeated}
+                onChange={handleChange}
+                class="input" 
+                placeholder="Repeat Password" 
                 type="email" 
                 required
             />
             
             <button type="submit" class="button">Confirm</button>
-
+            
             <a class="link" href="#/login">Back to login</a>
         </form> 
     </div>
     )
 }
   
-export default ResetEmail
+export default ResetConfirm
